@@ -1,7 +1,5 @@
 import streamlit as st
-import base64
-import time
-from tempfile import NamedTemporaryFile
+
 
 # App title
 st.set_page_config(page_title='AI App', page_icon='🎈')
