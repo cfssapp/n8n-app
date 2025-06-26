@@ -1,8 +1,6 @@
 import streamlit as st
 import base64
 import time
-import openai
-from openai import OpenAI
 from tempfile import NamedTemporaryFile
 from streamlit_image_select import image_select
 from mockup_code import mockup_1, mockup_2
@@ -15,7 +13,7 @@ st.info(
 )
 
 # Initialize OpenAI client with API key
-api_key = st.secrets['OPENAI_API_KEY']
+api_key = st.secrets['API_KEY_1']
 client = OpenAI(api_key=api_key)
 
 tabs = st.tabs(['Tell'])
