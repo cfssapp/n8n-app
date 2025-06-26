@@ -2,8 +2,6 @@ import streamlit as st
 import base64
 import time
 from tempfile import NamedTemporaryFile
-from streamlit_image_select import image_select
-from mockup_code import mockup_1, mockup_2
 
 # App title
 st.set_page_config(page_title='🎈 AI App', page_icon='🎈')
